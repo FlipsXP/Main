@@ -1,3 +1,5 @@
+-- This script is public and i dont give a fuck if you skid a shit
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "FlipsXP Script Library", HidePremium = false, SaveConfig = true,IntroText = "FlipsXP Free/Paid Script Library", ConfigFolder = "OrionTest"})
@@ -41,11 +43,26 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
+local Section = Tab:AddSection({
+	Name = "None of the scripts in this script hub is mine. They are just listed here so i can access them easily without any ads but people can use this script too. Its public and there is nothing i can do about it."
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
 Tab:AddButton({
 	Name = "DaHood AutoFarm | 500k/hour",
 	Callback = function()
       		_G.ToggleKey = 'v' -- Toggle Key to hide Gui.
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Random/main/Farm.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jailbreak AutoFarm | Project Auto by pxsta",
+	Callback = function()
+      		
   	end    
 })
 
