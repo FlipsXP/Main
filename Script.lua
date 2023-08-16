@@ -23,6 +23,33 @@ OrionLib:MakeNotification({
 	Time = 20
 })
 
+OrionLib:MakeNotification({
+	Name = "Read Me",
+	Content = "dsc.gg/Flips",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+OrionLib:MakeNotification({
+	Name = "Read Me",
+	Content = "dsc.gg/Flips",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+OrionLib:MakeNotification({
+	Name = "Read Me",
+	Content = "dsc.gg/Flips",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+OrionLib:MakeNotification({
+	Name = "Read Me",
+	Content = "dsc.gg/Flips",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
 --[[
 Title = <string> - The title of the notification.
 Content = <string> - The content of the notification.
@@ -62,7 +89,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Random/main/F
 Tab:AddButton({
 	Name = "Jailbreak AutoFarm | Project Auto by pxsta",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
   	end    
 })
 
