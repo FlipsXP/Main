@@ -70,10 +70,7 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
-local Section = Tab:AddSection({
-	Name = "None of the scripts in this script hub is mine. They are just listed here so i can access them easily without any ads but people can use this script too. Its public and there is nothing i can do about it."
-})
-
+Tab:AddParagraph("Important","None of the scripts in this script hub is mine. They are just listed here so i can access them easily without any ads but people can use this script too. Its public and there is nothing i can do about it.")
 --[[
 Name = <string> - The name of the section.
 ]]
