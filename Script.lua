@@ -15,35 +15,31 @@ IntroIcon = <string> - URL to the image you want to use in the intro animation.
 Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
-
 OrionLib:MakeNotification({
 	Name = "Read Me",
 	Content = "if a script doesnt execute, its fucking outdated. This message will delete itself in 20 seconds.",
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
-
 OrionLib:MakeNotification({
 	Name = "Read Me",
 	Content = "dsc.gg/Flips",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
-
 OrionLib:MakeNotification({
 	Name = "Read Me",
 	Content = "dsc.gg/Flips",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
-
 OrionLib:MakeNotification({
 	Name = "Read Me",
 	Content = "dsc.gg/Flips",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FlipsXP/u/main/Script.lua'))()
 OrionLib:MakeNotification({
 	Name = "Read Me",
 	Content = "dsc.gg/Flips",
